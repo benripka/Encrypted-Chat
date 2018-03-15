@@ -1,0 +1,25 @@
+
+Notes: Some code(along with comments) provided in class was reused indirectly throughout the assignment
+accessories:
+
+*2 Arduino Mega Boards (A and B)
+*3 wires
+*1 Resistor
+
+Wiring Instructions
+
+Pin TX3 (Arduino A) <--> Pin RX3 (Arduino B)
+Pin TX3 (Arduino B) <--> Pin RX3 (Arduino A)
+GND (Arduino A) <--> GND (Arduino B)
+5V (Arduino A) <--> Resistor <--> Pin 13 (Arduino A)
+GND (Arduino B) <--> Pin 13 (Arduino B)
+
+To run:
+
+*Wire together the Arduinos
+*Upload the code into each Arduino
+*Open separate Serial monitors for each Arduino
+
+Special Notes:
+*A hard reset is required once both serial monitors are open or else timeouts
+will occur.
